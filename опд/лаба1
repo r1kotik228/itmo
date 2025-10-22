@@ -1,0 +1,112 @@
+mkdir lab0
+cd lab0
+
+touch claydol5
+touch cleffa0
+mkdir marowak5
+
+cd marowak5
+touch jolteon
+mkdir swablu
+touch nidoranF
+mkdir shelgon
+
+cd ..
+touch sandslash3
+mkdir shedinja2
+
+cd shedinja2
+touch beautifly
+touch purrloin
+mkdir kabutops
+touch scrafty
+touch budew
+
+cd ..
+mkdir tranquill5
+
+cd tranquill5
+mkdir octillery
+mkdir sneasel
+touch marshtomp
+mkdir wailord
+
+echo "Ходы  Ancientpower Double-Edge Drill Run Earth Power Gravity Magic Coat Mud-Slap Recycle Role Play Signal Beam Skill Swap Sleep Talk Snore Stealth Rock Teleport† Trick Wonder Room Zen Headbutt" > claydol5
+echo "Abilities: Charm Pound Encore Sing Sweet Kiss
+Copycat Magical Leaf" > cleffa0
+echo "weight=54.0 height=31.0 atk=7 def=6" > jolteon
+echo "Тип покемона  POISON NONE" > nidoranF
+echo "Живет  Cave 
+Desert Grassland" > sandslash3
+echo "Живет  Forest Rainforest" > beautifly
+echo "Ходы Covet Dark Pulse Foul Play Gunk Shot Hyper Voice Iron Tail Knock Off Role Play Seed Bomb Sleep Talk Snatch Snore Spite Trick" > purrloin
+echo "Тип
+покемона DARK FIGHTING" > scrafty
+echo "Возможности  Overland=4 Surface=2
+Jump=2 Power=1 Intelligence=3 Sprouter=0" > budew
+echo "Возможности Overland=6 Surface=6 Underwater=6 Burrow=6 Jump=1 Power=2
+Intelligence=3 Fountain=0 Gilled=0" > marstomp
+
+chmod 006 claydol5
+chmod 404 cleffa0
+chmod 770 marowak5
+chmod 444 jolteon
+chmod 555 swablu
+chmod 062 nidoranF
+chmod 736 shelgon
+chmod 404 sandslash3
+chmod 577 shedinja2
+chmod 006 beautifly
+chmod 400 purrloin
+chmod 375 kabutops
+chmod 640 scrafty
+chmod 444 budew
+chmod 355 tranquill5
+chmod 714 octillery
+chmod 571 sneasel
+chmod 404 marshtomp
+chmod 751 wailord
+
+cd lab0
+
+chmod u+w tranquill5 2>/dev/null
+chmod u+w shedinja2 2>/dev/null
+chmod u+w tranquill5/wailord 2>/dev/null
+
+ln -s cleffa0 tranquill5/marshtompcleffa
+ln -s shedinja2 Copy_56
+ln cleffa0 shedinja2/budewcleffa
+cp cleffa0 tranquill5/wailord
+cat shedinja2/scrafty shedinja2/budew > cleffa0_73
+cp -r shedinja2 tranquill5/wailord
+cp cleffa0 shedinja2/purrloincleffa
+
+chmod u-w tranquill5 2>/dev/null
+chmod u-w shedinja2 2>/dev/null
+chmod u-w tranquill5/wailord 2>/dev/null
+
+
+
+chmod u+rx lab0 lab0/* lab0/*/* 2>/dev/null
+chmod u+r lab0/* lab0/*/* lab0/*/*/* 2>/dev/null
+chmod u+rx shedinja2 shedinja2/* 2>/dev/null
+chmod u+r cleffa0 2>/dev/null
+
+wc -l lab0/**/*5 2>/tmp/access_errors.txt | sort -n
+ls -ltr lab0/c* lab0/*/c* lab0/*/*/c* | tail -n 4
+nl -ba cleffa0 2>/dev/null | grep -v 'st'
+ls -lt shedinja2/* 2>/dev/null
+ls -lutr lab0/b* lab0/*/b* lab0/*/*/b* | tail -n 3
+ls -lS lab0/* lab0/*/* lab0/*/*/* 2>&1 | head -n 2
+
+chmod u-rwx lab0 lab0/* lab0/*/* lab0/*/*/* 2>/dev/null
+chmod u-rwx shedinja2 shedinja2/* 2>/dev/null
+chmod u-rwx cleffa0 2>/dev/null
+
+
+rm sandslash3
+rm lab0/shedinja2/purrloin
+rm lab0/tranquill5/marshtompclef
+rm lab0/shedinja2/budewclef
+rm -r marowak5
+rm -r lab0/tranquill5/sneasel
