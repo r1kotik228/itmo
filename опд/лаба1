@@ -94,7 +94,7 @@ chmod u+r cleffa0 2>/dev/null
 
 wc -l lab0/**/*5 2>/tmp/access_errors.txt | sort -n
 ls -ltr lab0/c* lab0/*/c* lab0/*/*/c* | tail -n 4
-nl -ba cleffa0 2>/dev/null | grep -v 'st'
+cat -n cleffa0 2>/dev/null | grep -v 'st'
 ls -lt shedinja2/* 2>/dev/null
 ls -lutr lab0/b* lab0/*/b* lab0/*/*/b* | tail -n 3
 ls -lS lab0/* lab0/*/* lab0/*/*/* 2>&1 | head -n 2
