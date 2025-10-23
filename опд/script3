@@ -1,0 +1,17 @@
+chmod u+x shedinja2/kabutops 2>/dev/null
+chmod u+w tranquill5 2>/dev/null
+chmod u+rx shedinja/beautifly 2>/dev/null
+chmod u+w tranquill5/wailord 2>/dev/null
+
+ln -s cleffa0 tranquill5/marshtompcleffa
+ln -s shedinja2 Copy_56
+ln cleffa0 shedinja2/budewcleffa
+cp cleffa0 tranquill5/wailord
+cat shedinja2/scrafty shedinja2/budew > cleffa0_73
+cp -r shedinja2 tranquill5/wailord
+cp cleffa0 shedinja2/purrloincleffa
+
+chmod u-w tranquill5 2>/dev/null
+chmod u-w shedinja2 2>/dev/null
+chmod u-w tranquill5/wailord 2>/dev/null
+
