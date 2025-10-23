@@ -1,0 +1,25 @@
+cd lab0
+chmod 006 claydol5
+chmod 404 cleffa0
+chmod 770 marowak5
+cd marowak5
+chmod 444 jolteon
+chmod 555 swablu
+chmod 062 nidoranF
+chmod 736 shelgon
+cd ..
+chmod 404 sandslash3
+chmod 577 shedinja2
+cd shedinja2
+chmod 006 beautifly
+chmod 400 purrloin
+chmod 375 kabutops
+chmod 640 scrafty
+chmod 444 budew
+cd ..
+chmod 355 tranquill5
+cd tranquill5
+chmod 714 octillery
+chmod 571 sneasel
+chmod 404 marshtomp
+chmod 751 wailord
