@@ -1,0 +1,48 @@
+mkdir lab0
+cd lab0
+
+touch claydol5
+touch cleffa0
+mkdir marowak5
+
+cd marowak5
+touch jolteon
+mkdir swablu
+touch nidoranF
+mkdir shelgon
+
+cd ..
+touch sandslash3
+mkdir shedinja2
+
+cd shedinja2
+touch beautifly
+touch purrloin
+mkdir kabutops
+touch scrafty
+touch budew
+
+cd ..
+mkdir tranquill5
+
+cd tranquill5
+mkdir octillery
+mkdir sneasel
+touch marshtomp
+mkdir wailord
+
+echo "Ходы  Ancientpower Double-Edge Drill Run Earth Power Gravity Magic Coat Mud-Slap Recycle Role Play Signal Beam Skill Swap Sleep Talk Snore Stealth Rock Teleport† Trick Wonder Room Zen Headbutt" > claydol5
+echo "Abilities: Charm Pound Encore Sing Sweet Kiss
+Copycat Magical Leaf" > cleffa0
+echo "weight=54.0 height=31.0 atk=7 def=6" > jolteon
+echo "Тип покемона  POISON NONE" > nidoranF
+echo "Живет  Cave 
+Desert Grassland" > sandslash3
+echo "Живет  Forest Rainforest" > beautifly
+echo "Ходы Covet Dark Pulse Foul Play Gunk Shot Hyper Voice Iron Tail Knock Off Role Play Seed Bomb Sleep Talk Snatch Snore Spite Trick" > purrloin
+echo "Тип
+покемона DARK FIGHTING" > scrafty
+echo "Возможности  Overland=4 Surface=2
+Jump=2 Power=1 Intelligence=3 Sprouter=0" > budew
+echo "Возможности Overland=6 Surface=6 Underwater=6 Burrow=6 Jump=1 Power=2
+Intelligence=3 Fountain=0 Gilled=0" > marstomp
