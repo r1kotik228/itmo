@@ -1,6 +1,6 @@
 rm sandslash3
 rm lab0/shedinja2/purrloin
-rm lab0/tranquill5/marshtompclef
-rm lab0/shedinja2/budewclef
-rm -r marowak5
-rm -r lab0/tranquill5/sneasel
+rm lab0/tranquill5/marshtompcleffa
+rm lab0/shedinja2/budewcleffa
+rm -rf marowak5
+rm -rf lab0/tranquill5/sneasel
