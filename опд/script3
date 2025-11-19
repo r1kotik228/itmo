@@ -1,7 +1,10 @@
+cd lab0
+
 chmod u+x shedinja2/kabutops
-chmod u+w tranquill5 
-chmod u+rx shedinja/beautifly 
-chmod u+w tranquill5/wailord 
+chmod u+w tranquill5
+chmod u+rx shedinja2/beautifly
+chmod u+w tranquill5/wailord
+
 
 ln -s cleffa0 tranquill5/marshtompcleffa
 ln -s shedinja2 Copy_56
@@ -11,7 +14,7 @@ cat shedinja2/scrafty shedinja2/budew > cleffa0_73
 cp -r shedinja2 tranquill5/wailord
 cp cleffa0 shedinja2/purrloincleffa
 
-chmod u-w tranquill5 
-chmod u-w shedinja2 
+chmod u-w tranquill5
+chmod u-w shedinja2
 chmod u-w tranquill5/wailord
-chmod u-rx shedinja/beautifly
+chmod u-rx shedinja2/beautifly
